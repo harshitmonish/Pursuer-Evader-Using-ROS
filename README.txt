@@ -13,10 +13,7 @@ export TURTLEBOT3_MODEL=waffle
 
 roslaunch husky_gazebo husky_playpen.launch
 
-rostopic echo /front/scan
-
 ### For Pursuer
 
 roslaunch turtlebot3_gazebo dual_turtlebot3.launch
 
-rostopic echo /tb3_0/odom
