@@ -1,0 +1,5 @@
+<launch>
+
+ <node pkg="lab2" name="lab2" type="evader.py" output="screen"/>
+
+</launch>
